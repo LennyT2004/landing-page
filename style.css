@@ -1,0 +1,133 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 20rem;
+	margin-left: 20rem;
+}
+
+header .links {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	justify-content: space-between;
+	width: 20rem;
+}
+
+section:nth-of-type(1) {
+	background-color: aqua;
+}
+
+section:nth-of-type(1) .box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 20rem;
+	margin-left: 20rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+section:nth-of-type(1) h2 {
+	font-size: 2rem;
+}
+
+section:nth-of-type(1) span {
+	display: block;
+	text-align: center;
+	font-size: 1.25rem;
+	background-color: red;
+	border-radius: 10px;
+	width: 5rem;
+	padding: 0.5rem;
+}
+
+section:nth-of-type(1) img {
+	width: 25%;
+	height: auto;
+}
+
+section:nth-of-type(2) {
+	background-color: rgb(204, 204, 204);
+}
+
+section:nth-of-type(2) h2 {
+	text-align: center;
+}
+
+section:nth-of-type(2) .pictures-section {
+	display: flex;
+	flex-direction: row;
+	margin-right: 20rem;
+	margin-left: 20rem;
+}
+
+section:nth-of-type(2) .pictures-section .picture {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section:nth-of-type(2) .pictures-section .picture img {
+	width: 50%;
+	height: auto;
+}
+
+section:nth-of-type(3) {
+	margin-right: 20rem;
+	margin-left: 20rem;
+}
+
+section:nth-of-type(3) p:nth-of-type(1) {
+	font-size: 2rem;
+	font-style: italic;
+}
+
+section:nth-of-type(3) p:nth-of-type(2) {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+section:nth-of-type(4) .signup {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	background-color: rgb(25, 112, 112);
+	margin-left: 30rem;
+	margin-right: 30rem;
+	border-radius: 20px;
+	margin-bottom: 2rem;
+}
+
+section:nth-of-type(4) .signup .info-text {
+	display: flex;
+	flex-direction: column;
+	margin-right: 5rem;
+}
+
+section:nth-of-type(4) .signup .info-text p {
+	margin-top: 0;
+}
+
+section:nth-of-type(4) .signup h4 {
+	align-self: flex-end;
+	border: 2.5px solid rgb(8, 48, 83);
+	padding: 0.5rem;
+	border-radius: 10px;
+}
+
+footer {
+	text-align: center;
+	background-color: rgb(42, 5, 73);
+	color: white;
+}
